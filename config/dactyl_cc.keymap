@@ -27,13 +27,12 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            bindings = <
-&kp F13 &kp GRAVE &kp N1 &kp N2 &kp N3 &kp N4 &kp N5    &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS &kp EQUAL
+            bindings = <&kp F13 &kp GRAVE &kp N1 &kp N2 &kp N3 &kp N4 &kp N5    &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS &kp EQUAL
 &kp F14 &kp TAB &kp Q &kp W &kp E &kp R &kp T             &kp Y &kp U &kp I &kp O &kp P &kp LBKT &kp RBKT
 &kp F15 &kp LSHIFT &kp A &kp S &kp D &kp F &kp G          &kp H &kp J &kp K &kp L &kp SEMI &kp APOS &kp BSLH
 &kp F16 &kp LSHIFT &kp Z &kp X &kp C &kp V &kp B       &kp N &kp M &kp COMMA &kp DOT &kp SLASH &kp A &kp A
-            &kp UP &kp DOWN &kp LSHIFT &kp LCTRL          &kp SPACE &kp BACKSPACE &kp LEFT &kp RIGHT
-                            &kp N1 &kp N2                 &kp N3 &kp N4
+            &kp UP &kp DOWN &kp DEL &kp LSHIFT          &kp SPACE &kp BACKSPACE &kp LEFT &kp RIGHT
+                            &kp ENTER &kp LCTRL                 &kp N3 &kp N4
                             &kp N5 &kp N6                 &kp N7 &kp N8
             >;
         };
