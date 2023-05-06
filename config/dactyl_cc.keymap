@@ -26,7 +26,7 @@
 &kp F15 &kp LSHIFT &kp Z &kp X &kp C &kp V &kp B       &kp N &kp M &kp COMMA &kp DOT &kp SLASH &kp PAGE_UP &kp PAGE_DOWN
             &kp UP &kp DOWN &kp DEL &kp LSHIFT          &kp SPACE &kp BACKSPACE &kp LEFT &kp RIGHT
                             &kp LCTRL &kp ENTER           &kp RALT &kp RCTRL
-                            &kp A &kp LWIN               &kp RWIN &kp ALT
+                            &kp A &kp LWIN               &kp RWIN &kp LALT
         >;
         };
     };
