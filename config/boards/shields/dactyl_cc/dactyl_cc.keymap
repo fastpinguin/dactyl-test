@@ -4,6 +4,10 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define DEFAULT 0
+#define ADDFUNC 1
+
+#define HYPER(key) LS(LC(LA(LG(key))))
+#define MEH(key)   LS(LC(LA(key)))
 
 &sl {
     release-after-ms = <5000>;
@@ -26,7 +30,18 @@
 &kp F15 &kp LSHIFT &kp Z &kp X &kp C &kp V &kp B       &kp N &kp M &kp COMMA &kp DOT &kp SLASH &kp PAGE_UP &kp PAGE_DOWN
             &kp UP &kp DOWN &kp DEL &kp LSHIFT          &kp SPACE &kp BACKSPACE &kp LEFT &kp RIGHT
                             &kp LCTRL &kp ENTER           &kp RALT &kp RCTRL
-                            &kp A &kp LWIN               &kp RWIN &kp LALT
+                            &mo ADDFUNC &kp LWIN               &kp RWIN &kp LALT
+        >;
+        };
+        addfunc_layer {
+            bindings = <
+            &trans &trans &kp F1 &kp F2 &kp F3 &kp F4 &kp F5     &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
+            &trans &trans &kp C_VOL_UP &kp C_VOL_DN &trans &trans &trans     &trans &trans &trans &trans &trans &trans &trans
+            &trans &trans &kp C_PREV &kp C_NEXT &kp C_PP &trans &trans     &trans &trans &trans &trans &trans &trans &trans
+            &bt BT_CLR &trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL3 &bt BT_SEL 4    &trans &trans &trans &trans &trans &trans &trans
+                                 &trans &trans &trans &trans     &trans &trans &trans &trans 
+                                               &trans &trans     &trans &trans
+                                               &trans &trans     &trans &trans
         >;
         };
     };
