@@ -30,7 +30,7 @@
 &kp F15 &kp NUBS &kp Z &kp X &kp C &kp V &kp B       &kp N &kp M &kp COMMA &kp DOT &kp SLASH &kp PAGE_UP &kp PAGE_DOWN
             &kp UP &kp DOWN &kp DEL &kp LSHIFT          &kp SPACE &kp BACKSPACE &kp LEFT &kp RIGHT
                             &kp LCTRL &kp ENTER           &kp RALT &kp RCTRL
-                            &mo ADDFUNC &kp LALT               &kp RWIN &kp LALT
+                            &mo ADDFUNC &kp LALT               &kp LWIN &kp LALT
         >;
         };
         addfunc_layer {
